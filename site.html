@@ -12,7 +12,7 @@
     color: rgb(253, 253, 253);
     text-align: center;
  }
- body { background-color: rgb(0, 0, 0)}
+ body { background-color: rgb(8, 8, 8)}
 
  p1 {
     font-size: xx-large;
@@ -69,8 +69,8 @@
     background-color: blue; 
     color: white; 
     border: none; 
-    padding: 10px 20px; 
-    font-size: 16px; 
+    padding: 9px 18px; 
+    font-size: 17px; 
     cursor: pointer; 
     border-radius: 5px; 
   }
@@ -82,12 +82,14 @@
 </style>
 <body>
 
-  <h1> SEU CADASTRO</h1>
+  <h1> SEU LOGIN</h1>
 <div class="cadastro">
   <h1>EMAIL: </h1> <input type="email" placeholder=" Digite seu email" required>
   <h1>SENHA: <input type="submit"></h1> <input type="password" placeholder="Digite sua senha" required> 
   
  <hr>
+  <button class="meu-botao">LOGAR</button>
+  <hr>
   <button class="meu-botao">FAZER CADASTRO</button>
 
 </div>
@@ -108,6 +110,8 @@
         <p>Camisa larga marrom</p>
         <p>Camisa larga verde</p>
         <p>Camisa larga cinza</p>
+        <p>Camisa larga Neon</p>
+        <p>Camisa larga Florida</p>
     </div>
 
 <div class="container">
@@ -118,12 +122,16 @@
     <img src="150marrom.webp" alt="Camisa Marrom">
     <img src="verde150.webp" alt="Camisa Verde">
     <img src="cinza150.webp" alt="Camisa Cinza">
+    <img src="https://img.lojasrenner.com.br/item/549265444/small/5.jpg" alt="Camisa Neon">
+    <img src="https://img.lojasrenner.com.br/item/832250977/original/12.jpg" alt="Camisa Florida">
 </div>
 <hr>
 <hr>
 <div class="imagem">
 <button class="meu-botao">COMPRE AQUI</button>
 <button class="meu-botao">COMPRE AQUI</button> 
+<button class="meu-botao">COMPRE AQUI</button>
+<button class="meu-botao">COMPRE AQUI</button>
 <button class="meu-botao">COMPRE AQUI</button>
 <button class="meu-botao">COMPRE AQUI</button>
 <button class="meu-botao">COMPRE AQUI</button>
@@ -138,7 +146,7 @@
 <script>
     document.querySelectorAll(".meu-botao").forEach(function(botao) {
     botao.addEventListener("click", function() {
-        alert("ITEM ADICIONAR AO CARRINHO");
+        alert("ITEM ADICIONDO AO CARRINHO, VALOR DA PEÇA 99,00 R$");
     });
 });
 
